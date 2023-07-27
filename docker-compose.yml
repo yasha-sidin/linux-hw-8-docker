@@ -38,7 +38,8 @@ wordpress:
     container_name: webserver
     restart: unless-stopped
     ports:
-      - "100:100"
+      - "80:80"
+      - "443:443"
     volumes:
       - wordpress:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
