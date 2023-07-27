@@ -1,0 +1,11 @@
+ЗАДАНИЕ 1
+
+Настраиваем конфигурацию веб-сервера
+
+    mkdir wordpress && cd wordpress
+
+    mkdir nginx-conf
+
+    vim nginx-conf/nginx.conf
+
+    
